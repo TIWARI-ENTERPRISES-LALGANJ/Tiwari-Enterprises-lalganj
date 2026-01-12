@@ -276,3 +276,17 @@ body.dark-mode .main-nav a:hover{ background: rgba(255,255,255,0.03); }
   .gallery-grid{ grid-template-columns: 1fr; }
   .img-placeholder{ min-height:160px; }
 }
+.lang-toggle{
+  padding: 6px 12px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-toggle:hover{
+  background: currentColor;
+  color: #fff;
+}
+
